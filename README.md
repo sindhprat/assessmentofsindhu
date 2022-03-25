@@ -1,1 +1,1 @@
-# assessmentofsindhu
+# assessment-sindhura

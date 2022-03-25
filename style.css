@@ -1,0 +1,123 @@
+header {
+    color: black;  
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1px;
+    text-align: center;
+
+}
+
+.navigation {
+    background-color: black;
+    height: 50px;
+    font-size: larger;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 25px;
+    color: brown;
+    width: 1250px;
+}
+
+p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+  
+ img {
+     height: 700px;
+     width: 1250px;
+     opacity: .8;
+ }
+
+ .grid-container{
+     display: grid;
+     grid-template-rows: fr 1fr 1fr;
+     grid-template-columns: 2fr 2fr 2fr 1fr 1fr;
+     background-color: black;
+     background-image: url(images/containerbackground.jpg);
+     background-size: 415px;
+     
+     column-count: 3;
+ }
+ .grid1{
+     background-image: url(images/step1@alt.jpg);
+     background-size:cover;
+     border: 1px solid white;
+     
+ }
+
+ .grid2{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+     background-image: url(images/step2.jpg);
+     background-size: cover;
+     border: 1px solid white;
+ }
+ .type{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: justify;
+ }
+ 
+ .grid3{
+     background-image: url(images/step3.jpg);
+     background-size: cover;
+     border: 1px solid white;
+ }
+ .grid3 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+ }
+ 
+ 
+ .grid4{
+     background-color: green;
+     border: 1px solid white;
+     grid-row-start: 3;
+     grid-column-start: 2;
+     grid-column-end: 4;
+ }
+ .grid4 p{
+     color: white;
+     float: inline-end;
+     
+ }
+.grid5{
+    background-color: beige;
+    grid-row-start: 3;
+    grid-column-end: 6;
+    grid-column-start: 4;
+}
+.grid5 p{
+    color: black;
+    text-align: center;
+    top: 20%;
+}
+.grid6{
+    background-color: darkcyan;
+    grid-column-start: 3;
+}
+.veg{
+    font-size: 20px;
+    color: aliceblue;
+}
+.grid7{
+    background-color: darkolivegreen;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.protein, li, ul{
+    font-size: 20px;
+    color: aliceblue;
+    text-align: justify;
+}
+.grid8{
+    background-color: darkslategray;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
